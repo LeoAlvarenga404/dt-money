@@ -1,50 +1,24 @@
-# React + TypeScript + Vite
+# DT Money
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+**DT Money** é uma aplicação web desenvolvida para ajudar você a gerenciar suas finanças pessoais. Com este site, você pode controlar facilmente suas entradas e saídas de dinheiro. A plataforma oferece uma visão clara do seu fluxo de caixa e ajuda a manter suas finanças organizadas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- **Tabela de Transações**: Mostra uma lista detalhada de todas as entradas e saídas de dinheiro.
+- **Contadores de Finanças**:
+  - **Total de Entradas**: Exibe o total acumulado das entradas registradas.
+  - **Total de Saídas**: Mostra o total acumulado das saídas registradas.
+  - **Saldo Total**: Calcula e exibe a diferença entre o total de entradas e saídas, mostrando o saldo geral.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Tecnologias Utilizadas
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **Frontend**: React com Vite
+- **Gerenciamento de Estado**: React Hook Form
+- **Estilização**: Styled-Components
+- **Componentes UI**: Radix UI
+- **Validação de Formulário**: Zod
+- **Requisições HTTP**: Axios
+- **Ícones**: Phosphor React
+- **Ferramentas de Desenvolvimento**: ESLint, TypeScript

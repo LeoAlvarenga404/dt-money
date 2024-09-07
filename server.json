@@ -15,6 +15,30 @@
       "category": "Alimentação",
       "price": 52,
       "createdAt": "2024-05-07T18:29:39.561Z"
+    },
+    {
+      "description": "leite",
+      "category": "Alimentação",
+      "price": 12,
+      "type": "outcome",
+      "createdAt": "2024-09-07T21:49:20.418Z",
+      "id": 3
+    },
+    {
+      "description": "Site Ecommerce",
+      "category": "Site",
+      "price": 2100,
+      "type": "income",
+      "createdAt": "2024-09-07T21:50:46.710Z",
+      "id": 4
+    },
+    {
+      "description": "Jantar",
+      "category": "Role",
+      "price": 215,
+      "type": "outcome",
+      "createdAt": "2024-09-07T22:08:41.038Z",
+      "id": 5
     }
   ]
 }
